@@ -1,3 +1,5 @@
+
+
 // Basic Types
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -14,6 +16,8 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+
+
 // Number
 var id = 5;
 var Age = 7;
@@ -35,6 +39,8 @@ employee = [
     [2, 'John'],
     [3, 'David']
 ];
+
+
 //Union
 var pid;
 pid = '22';
@@ -75,6 +81,7 @@ var user1 = {
     id: 1,
     name: 'John'
 };
+
 var add = function (x, y) { return x + y; };
 // Classes
 // class Person  {
