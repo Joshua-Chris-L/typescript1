@@ -1,5 +1,4 @@
 // Basic Types
-
 // Number
 let id: number = 5;
 let Age: number = 7;
@@ -55,7 +54,6 @@ type User = {
     iid: number,
     name: string
 } 
-
 const user: User = {
     iid: 1,
     name: 'John'
@@ -114,6 +112,7 @@ interface PersonInterface {
 //         return `${this.name} is now registered`
 //     }
 // }
+//
 
 // const brad = new Person(1, 'Emeka')
 // console.log(brad.register())
@@ -134,7 +133,7 @@ class Person implements PersonInterface  {
 
 // const brad = new Person(1, 'Emeka')
 // console.log(brad.register())
-
+//
 //Sub Clases
 class Employee extends Person{
     position: string
@@ -146,7 +145,6 @@ class Employee extends Person{
 }
 
 const emp = new Employee('1', 'shawn', 'Developer')
-
 console.log (emp.name)
 
 // Generics
